@@ -2,6 +2,10 @@ let Tlist_Exit_OnlyWindow=1
 "let Tlist_Auto_Open=1 
 
 syntax on
+
+colorscheme PaperColor
+
+
 set ruler
 set showcmd
 set showmode
