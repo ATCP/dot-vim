@@ -11,4 +11,5 @@ sudo apt-get -y install ctags
 sudo apt-get -y install vnc4server ubuntu-desktop
 sudo apt-get -y install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
 
+mkdir ~/.vnc/
 cp xstartup ~/.vnc/xstartup
