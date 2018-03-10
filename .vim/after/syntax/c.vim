@@ -20,6 +20,12 @@ syn keyword	cInclude	WARN
 syn keyword	cInclude	WARN_ON
 syn keyword	cInclude	WARN_ON_ONCE
 syn keyword	cInclude	BUILD_BUG_ON
+syn keyword	cInclude	PCACHE_WARN
+syn keyword	cInclude	PCACHE_WARN_ON
+syn keyword	cInclude	PCACHE_WARN_ON_ONCE
+syn keyword	cInclude	PCACHE_BUG_ON
+syn keyword	cInclude	PCACHE_BUG_ON_PCM
+syn keyword	cInclude	PCACHE_BUG_ON_VICTIM
 
 syn keyword	cInclude	READ_ONCE
 syn keyword	cInclude	WRITE_ONCE
@@ -56,6 +62,7 @@ syn keyword	cType		atomic_t
 syn keyword	cType		cpumask_t
 syn keyword	cType		spinlock_t
 syn keyword	cType		mutex_t
+syn keyword	cType		pgd_t pud_t pmd_t pte_t
 
 "
 " Compiler Labels
@@ -141,12 +148,17 @@ syn keyword	cLabel		for_each_set_bit
 syn keyword	cLabel		for_each_clear_bit
 syn keyword	cLabel		list_for_each
 syn keyword	cLabel		list_for_each_entry
+syn keyword	cLabel		list_for_each_entry_safe
 
 syn keyword	cLabel		do_each_thread
 syn keyword	cLabel		for_each_thread
 syn keyword	cLabel		for_each_process
 syn keyword	cLabel		for_each_process_thread
 syn keyword	cLabel		while_each_thread
+
+syn keyword	cLabel		pcache_for_each_way_set
+syn keyword	cLabel		pcache_for_each_set
+syn keyword	cLabel		pcache_for_each_way
 
 "
 " Signal Constants
