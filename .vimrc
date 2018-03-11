@@ -5,25 +5,34 @@ syntax on
 
 colorscheme PaperColor
 
-
 set ruler
 set showcmd
 set showmode
 set autoindent
+
 " Show the match ( { [
 set showmatch
+
 " Highlight the searching pattern.
 set hlsearch
-set tabstop=8
-set nu
-set guifont=Menlo:h16
-set tags=tags;
-" No wrap search, stop seaching at the end of file.
-"set nowrapscan
 
-"###################
-" map.
-"##################
+" Always use tabstop 8 please.
+set tabstop=8
+
+set nu
+
+" Allow mouse in all modes
+" So when use vi inside tmux, mouse scrolling will work.
+" set mouse=a
+
+" No wrap search, stop seaching at the end of file.
+" set nowrapscan
+
+" Remember the last position in a new open
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
+
 map \p i(<Esc>Ea)<Esc>
 map \c i{<Esc>ea}<Esc>
 map \[ i[<Esc>ea]<Esc>
