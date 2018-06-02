@@ -17,6 +17,10 @@ cp -r .bash_profile ~/
 sudo yum -y install ctags
 sudo git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 sudo git clone https://github.com/tmux-plugins/tmux-resurrect ~/.tmux/plugins/tmux-resurrect
+sudo git clone https://github.com/tmux-plugins/tmux-sensible ~/.tmux/plugins/tmux-sensible
+sudo git clone https://github.com/tmux-plugins/tmux-cpu ~/.tmux/plugins/tmux-cpu
+sudo git clone https://github.com/tmux-plugins/tmux-pain-control ~/.tmux/plugins/tmux-pain-control
+sudo git clone https://github.com/nhdaly/tmux-better-mouse-mode ~/.tmux/nhdaly/tmux-better-mouse-mode
 
 cd /usr/local/src
 sudo curl -L https://github.com/tmux/tmux/releases/download/2.3/tmux-2.3.tar.gz -o tmux-2.3.tar.gz
