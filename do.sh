@@ -1,20 +1,23 @@
-sudo yum install -y build-essential autoconf automake libxmu-dev
-#sudo apt-install install -y build-essential autoconf automake libxmu-dev
+#sudo yum install -y build-essential autoconf automake libxmu-dev
+sudo apt-install install -y build-essential autoconf automake libxmu-dev
 
-sudo yum update -y
-#sudo apt-get -y update
-sudo yum install -y vim htop
-#sudo apt-get -y install vim htop
-sudo yum install -y libevent libevent-devel libevent-headers
-sudo yum install -y ncurses-devel
+#sudo yum update -y
+sudo apt-get -y update
+#sudo yum install -y vim htop
+sudo apt-get -y install vim htop
+#sudo yum install -y libevent libevent-devel libevent-headers
+#sudo yum install -y ncurses-devel
+sudo apt-get -y install libevent-dev
+sudo apt-get -y install libncurses-dev
+
 
 cp -r .vim/ ~/ 
 cp -r .vimrc ~/
 cp -r .tmux.conf ~/
 cp -r .bash_profile ~/
 
-#sudo apt-get -y install ctags
-sudo yum -y install ctags
+sudo apt-get -y install ctags
+#sudo yum -y install ctags
 sudo git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 sudo git clone https://github.com/tmux-plugins/tmux-resurrect ~/.tmux/plugins/tmux-resurrect
 sudo git clone https://github.com/tmux-plugins/tmux-sensible ~/.tmux/plugins/tmux-sensible
