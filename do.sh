@@ -1,5 +1,5 @@
 #sudo yum install -y build-essential autoconf automake libxmu-dev
-sudo apt-install install -y build-essential autoconf automake libxmu-dev
+sudo apt-get install -y build-essential autoconf automake libxmu-dev
 
 #sudo yum update -y
 sudo apt-get -y update
