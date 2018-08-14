@@ -38,3 +38,8 @@ alias vu="vi"
 alias vo="vi"
 alias ci="vi"
 alias co="vi"
+
+
+git config --global core.editor vim
+git config --global user.name "ATCP"
+git config --global user.email poppin.ke@gmail.com
