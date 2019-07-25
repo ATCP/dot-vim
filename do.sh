@@ -11,10 +11,10 @@ sudo apt-get -y install libevent-dev
 sudo apt-get -y install libncurses-dev
 
 
-cp -r .vim/ ~/ 
-cp -r .vimrc ~/
-cp -r .tmux.conf ~/
-cp -r .bash_profile ~/
+sudo cp -r .vim/ ~/ 
+sudo cp -r .vimrc ~/
+sudo cp -r .tmux.conf ~/
+sudo cp -r .bash_profile ~/
 
 sudo apt-get -y install ctags
 #sudo yum -y install ctags
