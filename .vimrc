@@ -3,7 +3,7 @@ let Tlist_Exit_OnlyWindow=1
 
 syntax on
 
-colorscheme PaperColor
+"colorscheme PaperColor
 
 set ruler
 set showcmd
