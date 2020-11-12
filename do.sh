@@ -13,7 +13,7 @@ sudo apt-get -y install libncurses-dev
 
 sudo cp -r .vim/ ~/ 
 sudo cp -r .vimrc ~/
-sudo cp -r .tmux.conf ~/
+#sudo cp -r .tmux.conf ~/
 sudo cp -r .bash_profile ~/
 
 sudo apt-get -y install ctags
