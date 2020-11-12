@@ -4,7 +4,7 @@ sudo apt-get install -y build-essential autoconf automake libxmu-dev
 #sudo yum update -y
 sudo apt-get -y update
 #sudo yum install -y vim htop
-sudo apt-get -y install vim htop
+sudo apt-get -y install vim htop wget git curl
 #sudo yum install -y libevent libevent-devel libevent-headers
 #sudo yum install -y ncurses-devel
 sudo apt-get -y install libevent-dev
