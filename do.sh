@@ -1,17 +1,17 @@
-#sudo yum install -y build-essential autoconf automake libxmu-dev
-sudo apt-get install -y build-essential autoconf automake libxmu-dev
+##sudo yum install -y build-essential autoconf automake libxmu-dev
+#sudo apt-get install -y build-essential autoconf automake libxmu-dev
+#
+##sudo yum update -y
+#sudo apt-get -y update
+##sudo yum install -y vim htop
+#sudo apt-get -y install vim htop wget git curl
+##sudo yum install -y libevent libevent-devel libevent-headers
+##sudo yum install -y ncurses-devel
+#sudo apt-get -y install libevent-dev
+#sudo apt-get -y install libncurses-dev
 
-#sudo yum update -y
-sudo apt-get -y update
-#sudo yum install -y vim htop
-sudo apt-get -y install vim htop wget git curl
-#sudo yum install -y libevent libevent-devel libevent-headers
-#sudo yum install -y ncurses-devel
-sudo apt-get -y install libevent-dev
-sudo apt-get -y install libncurses-dev
 
-
-sudo cp -r .vim/ ~/ 
+#sudo cp -r .vim/ ~/ 
 sudo cp -r .vimrc ~/
 sudo cp -r .tmux.conf ~/
 sudo cp -r .bash_profile ~/
