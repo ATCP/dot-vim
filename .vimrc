@@ -3,7 +3,7 @@ let Tlist_Exit_OnlyWindow=1
 
 syntax on
 
-colorscheme PaperColor
+"colorscheme PaperColor
 
 set ruler
 set showcmd
@@ -17,10 +17,12 @@ set showmatch
 set hlsearch
 
 " Always use tabstop 8 please.
-set tabstop=8
-
+set tabstop=2
+set softtabstop=0 noexpandtab
+set shiftwidth=2
+set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab
 set nu
-
+"
 " Allow mouse in all modes
 " So when use vi inside tmux, mouse scrolling will work.
 " set mouse=a

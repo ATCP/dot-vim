@@ -38,3 +38,12 @@ alias vu="vi"
 alias vo="vi"
 alias ci="vi"
 alias co="vi"
+
+
+git config --global core.editor vim
+git config --global user.name "ATCP"
+git config --global user.email poppin.ke@gmail.com
+
+export HADOOP_HOME=/home/liuke/hadoop
+export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin
+export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
