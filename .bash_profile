@@ -44,15 +44,15 @@ git config --global core.editor vim
 git config --global user.name "ATCP"
 git config --global user.email poppin.ke@gmail.com
 
-export HADOOP_HOME=/home/liuke/hadoop
+export HADOOP_HOME=$HOME/hadoop
 export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
 export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin:/usr/local/cuda-11.3/bin
 export LD_LIBRARY_PATH=/usr/local/cuda-11.3/lib64:$LD_LIBRARY_PATH
 
-export LD=/home/liuke/Approximate/ld_preload/atp-impl
-export ATP=/home/liuke/Approximate
-export PYT=/home/liuke/atp-torch/pytorch
-export torch=/home/liuke/atp-torch/torch
-export torchcli=/home/liuke/atp-torch/torch-atp-eval
-export ke=/home/liuke
-export logs=/home/liuke/hadoop/logs/userlogs
+export LD=$HOME/Approximate/ld_preload/atp-impl
+export ATP=$HOME/Approximate
+export PYT=$HOME/atp-torch/pytorch
+export torch=$HOME/atp-torch/torch
+export torchcli=$HOME/atp-torch/torch-atp-eval
+export ke=$HOME
+export logs=$HOME/hadoop/logs/userlogs
